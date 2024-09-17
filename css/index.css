@@ -86,7 +86,7 @@
         .ul-flex {
             display: flex;
             flex-direction: column;
-            gap: 40px;
+            gap: 70px;
         }
 
         .list-item {
@@ -107,6 +107,7 @@
         .list-item-social {
             font-size: large;
             text-align: center;
+            color: aqua;
         }
 
 
