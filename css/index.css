@@ -4,35 +4,73 @@
 .container {
     margin: 0 auto;
 }
+
 a {
     color: inherit;
     text-decoration: none;
   }
 
-  .body-img {
+.body-img {
     background-image: url(../img/sprite.svg);
- background-position: bottom;
- position: absolute;
+    background-position: bottom;
+    position: absolute;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     width: 100%;
 
-  }
+}
 
-  
-
-/* /Global */
-
-
-
-/* Стили по умолчанию для мобильных устройств */
 .container {
     width: 100%;
     padding: 10px;
 }
 
+  /* /Global */
+
+
+
+/* Стили по умолчанию для мобильных устройств */
+
+
 /* header */
+
+/* Burger button */
+.menu-btn {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.menu-btn span {
+    width: 100%;
+    height: 3px;
+    background-color: #e4d8d8;
+    position: absolute;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-btn span:nth-child(1) {
+    top: 10;
+}
+
+.menu-btn span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu-btn span:nth-child(3) {
+    bottom: 0;
+}
+/* /Burger button */
+
+.flex-nav {
+    display: flex;
+    justify-content: space-between;
+}
 
 .header-section {
     padding: 30px 0;
@@ -40,8 +78,8 @@ a {
 
 .navigation {
     display: none;
+    
 }
-
 
 
 .container {
@@ -58,9 +96,9 @@ a {
     color: #e61717;
 }
 
+/* /header */
 
 
-  /* /header */
 
   /* main */
 
@@ -99,10 +137,11 @@ color: #e0e1e3;
 margin-top: 30px;
 }
 
+/* /main */
 
 
-    /* /main */
   /* Планшеты в портретной ориентации */
+
 @media (min-width: 600px) {
     .container {
       width: 540px;
@@ -111,6 +150,7 @@ margin-top: 30px;
 }
   
   /* Планшеты в ландшафтной ориентации и небольшие десктопы */
+
 @media (min-width: 768px) {
     .container {
       width: 720px;
@@ -122,12 +162,16 @@ margin-top: 30px;
 
 /* header */
 
+
 @media (min-width: 992px) {
     .container {
       width: 960px;
       padding: 25px;
+    
 }
-
+.menu-btn {
+    display: none;
+}
 
 
 .navigation {
@@ -155,6 +199,7 @@ margin-top: 30px;
 
 .lang {
     display: flex;
+    gap: 10px;
     margin-right: 30px;
     margin-left: 70px;
     font-family: "Montserrat", sans-serif;
@@ -172,10 +217,10 @@ margin-top: 30px;
     color: #d16822;
     }
 
-    /* /header */
+/* /header */
 
 
-    /* main */
+/* main */
     .main-section {
         padding: 30px 0 0;
         
@@ -207,6 +252,8 @@ margin-top: 30px;
 /* /main */
 
 
+
+
 /* footer */
 
 
@@ -215,9 +262,57 @@ margin-top: 30px;
 
 /* /footer */
 
-  
+
+
+/* modal window */
+ol, ul {
+    list-style: none;
+}
+
+.modal-show {
+    background-color: #0f0425;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    font-size: 45px;
+    gap: 70px;
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #c57777;
+    border-radius: 10px;
+    transform: translateY(-100%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.modal-show.show {
+    transform: translateY(0);
+}
+
+.modal-close {
+    visibility: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) translateY(-100%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out;
+}
+
+.modal-close.show {
+    visibility: visible;
+    transform: translate(-50%, -50%) translateY(0);
+}
+
+
+
   /* Большие десктопы */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     .container {
       width: 1140px;
       padding: 30px;
@@ -237,5 +332,5 @@ margin-top: 30px;
     font-size: 20px;
     }
 }
-
+ */
 
