@@ -1,6 +1,10 @@
 
 /* Global styles */
 
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
     .container {
         margin: 0 auto;
         width: 100%;
