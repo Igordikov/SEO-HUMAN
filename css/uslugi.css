@@ -178,11 +178,11 @@ ol, ul {
     .info-card {
         width: 320px;
         height: auto;
-        background-color:rgb(167, 167, 167);
+        background-color:rgb(177, 177, 177);
         border-radius: 15px;
         margin: 0 auto;
         padding: 20px;
-        box-shadow: 10px 10px 10px rgba(172, 175, 184, 0.6);
+        box-shadow: 10px 10px 10px rgba(67, 103, 212, 0.6);
     }
 
     .digital {
