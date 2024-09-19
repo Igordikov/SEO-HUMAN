@@ -132,10 +132,13 @@ ol, ul {
 
 /* main */
 
-    .main-section {
-    padding: 20px 0 20px 0;
-    background-image: url(../img/sprite.svg);
-    
+.main-section {
+    padding: 15px 0 15px 0;
+}
+
+    .service-card {
+        padding: 5px 0 5px 0;
+        background-image: url(../img/sprite.svg);
     }
 
     .title-text {
@@ -149,16 +152,9 @@ ol, ul {
     .subtitle-text {
         color: #2242d1;
         font-weight: 700;
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
         margin-bottom: 20px;
-       
-    }
-
-    .service-list {
-       display: flex;
-       flex-direction: column;
-       gap: 10px;
     }
 
     .link-on-details {
@@ -182,7 +178,7 @@ ol, ul {
         border-radius: 15px;
         margin: 0 auto;
         padding: 20px;
-        box-shadow: 10px 10px 10px rgba(218, 218, 218, 0.6);
+        text-align: center;
     }
 
     .digital {
