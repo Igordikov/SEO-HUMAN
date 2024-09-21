@@ -216,11 +216,17 @@ ol, ul {
 
 /* Планшеты в ландшафтной ориентации и небольшие десктопы */
 
+
 @media (min-width: 768px) {
     .container {
     width: 720px;
     padding: 0 20px 0 20px;
     }
+
+    .ul-flex {
+        visibility: hidden
+    }
+ 
 }
 
 
@@ -287,13 +293,20 @@ ol, ul {
         color: #d16822;
     }
 
-/* /header */
+    /* /header */
 
 
-/* main */
+    /* main */
+
+
+
+    .service-card {
+        padding: 15px 0 15px 0;
+    }
 
     .info-card {
         margin: 0;
+        width: 400px;
     }
 
     .main-section {
@@ -313,7 +326,7 @@ ol, ul {
 
     .service-flex {
         display: flex;
-        align-items:normal;
+        gap: 50px;
         gap: 100px;
     }
 
@@ -323,6 +336,7 @@ ol, ul {
 
     .link-on-details {
         font-size: 20px;
+        
     }
 
     .service-description {
@@ -332,12 +346,12 @@ ol, ul {
 
     .service-img {
         display: block;
-        width: 350px;
-        height: 350px;
+        width: 400px;
+        height: 400px;
         border-radius: 10%;
-box-shadow: 5px 5px 15px rgba(209, 71, 17, 0.9);
-}
+        box-shadow: 5px 5px 15px rgba(224, 114, 77, 0.9);
     }
+    
     
     .digital {
         font-size: 60px;
@@ -351,8 +365,13 @@ box-shadow: 5px 5px 15px rgba(209, 71, 17, 0.9);
         font-family: "Montserrat", sans-serif;
         font-size: 30px;
     }
+    /* /main */
 
-/* /main */
+    /* modal */
+
+   
+    /* /modal */
+}
 
 
 
