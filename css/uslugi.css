@@ -157,16 +157,21 @@ ol, ul {
         font-weight: 700;
         font-size: 20px;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+    }
+
+    .mobile-version-dscr {
+        margin-bottom: 5px;
+    }
+
+    .service-description {
+        display: none;
     }
 
     .link-on-details {
-        padding: 10px 20px;
-        background-color: #707070;
-        border-radius: 15px;
-        text-align: center;
-        font-family: "Roboto";
-        font-weight: 400;
+        font-weight: 600;
+        color: red;
+        text-align: left; 
     }
 
     .subtitle-paragtaph {
@@ -181,7 +186,7 @@ ol, ul {
         border-radius: 15px;
         margin: 0 auto;
         padding: 20px;
-        text-align: center;
+        text-align: left;
     }
 
    
@@ -312,8 +317,17 @@ ol, ul {
         gap: 100px;
     }
 
+    .mobile-version-dscr {
+        display: none;
+    }
+
+    .link-on-details {
+        font-size: 20px;
+    }
+
     .service-description {
-        text-align: left;
+        display: inline-block;
+        margin-bottom: 15px;
     }
 
     .service-img {
@@ -337,7 +351,7 @@ box-shadow: 5px 5px 15px rgba(209, 71, 17, 0.9);
         font-family: "Montserrat", sans-serif;
         font-size: 30px;
     }
-}
+
 /* /main */
 
 
