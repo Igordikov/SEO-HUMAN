@@ -173,6 +173,7 @@
     
     /* footer */
 
+
     .footer-section {
         padding: 30px 0 30px 0;
     }
@@ -184,6 +185,7 @@
     .footer-icons {
         display: flex;
         justify-content: space-around;
+       
     }
 
     .footer-description {
@@ -326,18 +328,18 @@
 
         .footer-description {
             display: inline-block;
-            color: blue;
+            color: rgb(231, 32, 6);
             font-weight: 900;
             font-size: 30px;
             text-align: left;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
         
         .footer-icons {
             display: flex;
             justify-content: left;
             align-items: baseline;
-            gap: 15px;
+            gap: 50px;
         }
 
         /* /footer */
