@@ -222,6 +222,14 @@
 
 
     @media (min-width: 992px) {
+
+        .logo {
+            position: fixed;
+            top: 30;
+            left: 0;
+            margin-left: 20px;
+        }
+
         .container {
             width: 960px;
             padding: 0 25px 0 25px;
@@ -238,6 +246,7 @@
 
         .navigation {
             display: flex;
+            margin: 0 auto;
         }
 
         .flex-nav {
