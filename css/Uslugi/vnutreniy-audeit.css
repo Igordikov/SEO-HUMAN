@@ -176,14 +176,6 @@ ol, ul {
         gap: 30px;
     }
 
-    .subtitle-text {
-        color: #2242d1;
-        font-weight: 700;
-        font-size: 20px;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
     .mobile-version-dscr {
         margin-bottom: 5px;
     }
@@ -217,23 +209,26 @@ ol, ul {
     .subtitle {
         font-family: "Montserrat", sans-serif;
         font-weight: 600;
-        font-size: 20px;
+        font-size: 25px;
         line-height: 1.45;
         letter-spacing: 0.01em;
-        color: blue;
+        color: rgb(171, 171, 231);
         margin: 30px 0 30px 0;
     }
 
-    .audit-p {
-        color: #e0e1e3;
-        font-size: medium;
-    } 
-
-    .audit-list {
+    .service-description {
         display: flex;
         flex-direction: column;
         gap: 15px;
-    }
+        margin-bottom: 15px;
+    } 
+
+    .audit-p {
+        color: white;
+        font-size:large;
+    } 
+
+
 
 /* /main */
 

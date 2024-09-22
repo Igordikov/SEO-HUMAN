@@ -145,7 +145,7 @@ ol, ul {
 }
 
     .service-card {
-        padding: 5px 0 5px 0;
+        padding: 15px 0 15px 0;
     }
 
     .title-text {
@@ -191,6 +191,7 @@ ol, ul {
         margin: 0 auto;
         padding: 20px;
         text-align: left;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
     }
 
    
@@ -321,7 +322,8 @@ ol, ul {
 
     .info-card {
         margin: 0 auto;
-        width: 600px;
+        width: 700px;
+        box-shadow: 10px 10px 15px rgba(7, 5, 5, 0.9);
     }
 
     .main-section {
