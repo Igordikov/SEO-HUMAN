@@ -136,6 +136,15 @@ ol, ul {
 
 /* main */
 
+.example-btn {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #d16822;
+    padding: 10px;
+    font-weight: 600;
+}
+
 .service-img {
     display: none;
 }
@@ -154,6 +163,7 @@ ol, ul {
         margin: 0 auto;
         text-align: center;
         font-size: 35px;
+        margin-bottom: 30px;
     }
 
     .subtitle-text {
@@ -324,7 +334,15 @@ ol, ul {
     /* main */
 
  
-
+    .example-btn {
+        width: 500px;
+        height: 100px;
+        border-radius: 10px;
+        background-color: #d16822;
+        padding: 10px;
+        font-weight: 600;
+    }
+    
 
     .service-card {
         padding: 15px 0 15px 0;
@@ -342,6 +360,7 @@ ol, ul {
     .title-text {
         max-width: 600px;
         color: ghostwhite;
+        margin-bottom: 40px;
     }
 
     .subtitle-text {
