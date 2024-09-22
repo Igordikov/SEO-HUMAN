@@ -146,6 +146,7 @@ ol, ul {
     background-color: #d16822;
     padding: 10px;
     font-weight: 600;
+    box-shadow: 5px 5px 15px rgba(133, 101, 85, 0.9);
 }
 
 
