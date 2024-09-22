@@ -22,7 +22,6 @@
 
     .body-img {
         background-image: url(../img/bckgr3.jpg);
-        background-position: bottom;
         position: absolute;
         width: 100%;
         height: 100%;

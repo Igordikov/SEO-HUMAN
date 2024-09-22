@@ -228,6 +228,10 @@ ol, ul {
         font-size:large;
     } 
 
+    .color {
+        color: rgb(114, 226, 40);
+    }
+
 
 
 /* /main */
@@ -401,6 +405,10 @@ ol, ul {
     
     .subtitle {
         font-size: 30px;
+    }
+
+    .color {
+        color: rgb(114, 226, 40);
     }
     /* /main */
 
