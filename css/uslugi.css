@@ -355,7 +355,9 @@ ol, ul {
     }
 
     .service-description {
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
         margin-bottom: 15px;
     }
 
