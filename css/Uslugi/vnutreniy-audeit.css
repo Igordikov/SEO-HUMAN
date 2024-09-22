@@ -150,7 +150,7 @@ ol, ul {
 
     .title-text {
         max-width: 380px;
-        color: red;
+        color: ghostwhite;
         margin: 0 auto;
         text-align: center;
         font-size: 35px;
@@ -341,7 +341,7 @@ ol, ul {
 
     .title-text {
         max-width: 600px;
-        color: red;
+        color: ghostwhite;
     }
 
     .subtitle-text {
