@@ -21,7 +21,7 @@ ol, ul {
 }
 
 .body-img {
-    background-image: url(../../img/bckgr3.jpg);
+    background-image: url(../img/bckgr3.jpg);
     position: absolute;
     width: 100%;
     margin: 0;
