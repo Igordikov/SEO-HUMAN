@@ -41,3 +41,12 @@ a {
     text-decoration: none;
     /* color: inherit; Наследует цвет текста от родительского элемента */
 }
+
+.body-img {
+    background-image: url(../../img/bckgr3.jpg);
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
