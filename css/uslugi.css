@@ -135,6 +135,15 @@ ol, ul {
 
 
 /* main */
+.bread {
+    color: blue;
+}
+
+.bread-flex {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+}
 
 .service-img {
     display: none;
@@ -146,6 +155,10 @@ ol, ul {
 
     .service-card {
         padding: 15px 0 15px 0;
+    }
+
+    .service-card:last-child {
+       padding-bottom: 50px;
     }
 
     .title-text {
@@ -314,12 +327,15 @@ ol, ul {
 
     /* main */
 
- 
+    .bread-flex {
+        padding-bottom: 50px;
+    }
 
 
     .service-card {
         padding: 15px 0 15px 0;
     }
+
 
     .info-card {
         margin: 0 auto;

@@ -136,6 +136,16 @@ ol, ul {
 
 /* main */
 
+.bread {
+    color: blue;
+}
+
+.bread-flex {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
 .example-list {
     display: flex;
    flex-direction: column;
@@ -342,6 +352,11 @@ ol, ul {
 
 
     /* main */
+
+    
+    .bread-flex {
+        padding-bottom: 50px;
+    }
 
     .example-list {
         flex-direction: row;
