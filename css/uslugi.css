@@ -219,6 +219,12 @@ ol, ul {
         margin-top: 30px;
     }
 
+    .footer-icons {
+        display: flex;
+        align-items: baseline;
+        gap: 15px;
+    }
+
 /* /main */
 
 /* /Mobile-first */

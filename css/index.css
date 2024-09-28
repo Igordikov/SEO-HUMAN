@@ -183,14 +183,13 @@
         padding: 30px 0 30px 0;
     }
 
-    .icon-footer use {
-        fill: rgb(12, 19, 85);
-    }
+    
+   
 
     .footer-icons {
         display: flex;
-        justify-content: space-around;
-       
+        align-items: baseline;
+        gap: 15px;
     }
 
     .contact-form {
@@ -353,6 +352,15 @@
             align-items: baseline;
             gap: 50px;
         }
+
+        .list-item-footer {
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .list-item-footer:hover {
+            transform: scale(1.5); 
+        }
+
 
         /* /footer */
                 

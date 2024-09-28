@@ -242,7 +242,12 @@ ol, ul {
     .color {
         color: rgb(114, 226, 40);
     }
-
+    
+    .footer-icons {
+        display: flex;
+        align-items: baseline;
+        gap: 15px;
+    }
 
 
 /* /main */
