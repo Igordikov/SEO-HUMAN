@@ -208,10 +208,26 @@ ol, ul {
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
     }
 
+    /* Страница кейса */
+
+.example-job-logo {
+    margin: 0 auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.example-job-logo:hover {
+    transform: scale(0.9); /* Уменьшение */
+}
+
+
+
+    /* Страница кейса */
+
     
 
    
-    .subtitle {
+    /* .subtitle {
         font-family: "Montserrat", sans-serif;
         font-weight: 600;
         font-size: 20px;
@@ -219,7 +235,7 @@ ol, ul {
         letter-spacing: 0.01em;
         color: #e0e1e3;
         margin-top: 30px;
-    }
+    } */
 
     .footer-icons {
         display: flex;
@@ -352,7 +368,7 @@ ol, ul {
     }
 
     .info-card:hover {
-        box-shadow: 15px 15px 25px rgba(0, 0, 0, 1);
+        box-shadow: 15px 15px 25px rgba(0, 0, 0,);
     }
 
 
