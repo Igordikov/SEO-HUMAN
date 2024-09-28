@@ -375,6 +375,12 @@ ol, ul {
         background-color: #d16822;
         padding: 10px;
         font-weight: 600;
+        transition: box-shadow 0.3s ease-in-out;
+        box-shadow: none;
+    }
+
+    .example-btn:hover {
+        box-shadow: 10px 10px 20px rgb(34, 26, 22);
     }
     
 

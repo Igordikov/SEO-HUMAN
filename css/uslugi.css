@@ -208,6 +208,8 @@ ol, ul {
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
     }
 
+    
+
    
     .subtitle {
         font-family: "Montserrat", sans-serif;
@@ -346,8 +348,14 @@ ol, ul {
     .info-card {
         margin: 0 auto;
         width: 700px;
-        box-shadow: 10px 10px 15px rgba(7, 5, 5, 0.9);
+        transition: box-shadow 0.3s ease-in-out;
     }
+
+    .info-card:hover {
+        box-shadow: 15px 15px 25px rgba(0, 0, 0, 1);
+    }
+
+
 
     .main-section {
         padding: 30px 0 50px 0;
