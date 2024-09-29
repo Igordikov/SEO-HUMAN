@@ -213,7 +213,7 @@ ol, ul {
 
 .example-job-logo {
    
-    border-radius: 10px;
+    border-radius: 15px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -438,6 +438,17 @@ ol, ul {
         font-family: "Montserrat", sans-serif;
         font-size: 30px;
     }
+
+    /* Страница кейса */
+
+    .img-list {
+        align-items: baseline;
+        flex-direction: row;
+
+    }
+
+    /* / Траница кейса */
+
     /* /main */
 
     /* modal */
