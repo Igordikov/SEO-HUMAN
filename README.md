@@ -8,4 +8,7 @@ https://foxminded.ua
 https://impress-shop.com/ru/
 https://sexy-paradise.com.ua/
 https://hromadske.ua/
-
+https://www.flashscore.ua/
+https://tatragarden.ua/
+https://xn--80aaomcqcorfemf5k.zp.ua/
+https://aldoshoes.co.uk/
