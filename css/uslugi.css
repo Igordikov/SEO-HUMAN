@@ -212,9 +212,10 @@ ol, ul {
     /* Страница кейса */
 
 .example-job-logo {
-   
+   margin: 0 auto;
     border-radius: 15px;
     transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
 }
 
 .example-job-logo:hover {
@@ -442,9 +443,9 @@ ol, ul {
     /* Страница кейса */
 
     .img-list {
-        align-items: baseline;
+        align-items: normal ;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-wrap: wrap;
         row-gap: 60px;
     }
