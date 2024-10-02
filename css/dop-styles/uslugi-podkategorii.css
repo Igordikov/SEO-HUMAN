@@ -31,6 +31,7 @@ ol, ul {
 
 
 
+
 /* /Global styles*/
 
 
@@ -137,7 +138,7 @@ ol, ul {
 /* main */
 
 .bread {
-    color: blue;
+    color: rgb(248, 182, 58);
 }
 
 .bread-flex {
@@ -436,14 +437,7 @@ ol, ul {
         color: rgb(114, 226, 40);
     }
 
-    /* Страница Кейса */
-
-    .info-card {
-     width: 430px;
-     
-    }
-
-    /* /Страница кейса */
+   
     /* /main */
 
    

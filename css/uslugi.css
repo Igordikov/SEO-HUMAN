@@ -137,9 +137,8 @@ ol, ul {
 
 /* main */
 .bread {
-    color: blue;
+    color: rgb(248, 182, 58);
 }
-
 .bread-flex {
     display: flex;
     gap: 20px;
@@ -208,6 +207,10 @@ ol, ul {
         text-align: left;
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
     }
+    
+    .img-list {
+        margin-bottom: 50px;
+    }
 
     /* Страница кейса */
 
@@ -231,7 +234,22 @@ ol, ul {
 
     /* /Страница кейса */
 
-    
+    /* Страница обо мне */
+    .foto-with-me {
+        border-radius: 10px;
+        margin: 40px auto;
+       
+
+    }
+
+    .education-logo {
+        margin: 0 auto;
+        width: 100px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+
+    /* /Страница обо мне */
 
    
     /* .subtitle {
@@ -450,9 +468,36 @@ ol, ul {
         row-gap: 60px;
     }
 
-    /* / Траница кейса */
+
+
+      /* / Страница кейса */
+   
+       /* Страница обо мне */
+   
+       .specialization {
+           display: flex;
+           justify-content: space-between;
+       }
+   
+       .foto-with-me {
+           border-radius: 10px;
+            margin: 0;
+       }
+       .list-item-footer {
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .list-item-footer:hover {
+        transform: scale(1.5); 
+    }
+   
+       /* /страница обо мне */
+
+ 
 
     /* /main */
+
+
 
     /* modal */
 
