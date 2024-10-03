@@ -27,6 +27,7 @@ ol, ul {
     background-image: url(../../img/bckgr3.jpg);
     position: absolute;
     width: 100%;
+    min-height: 1000px;
     margin: 0;
     background-repeat: repeat;
     background-attachment: scroll;
@@ -211,7 +212,7 @@ ol, ul {
     }
 
     .info-card {
-        width: 320px;
+        width: 430px;
         height: auto;
         background-color:rgb(177, 177, 177);
         border-radius: 15px;

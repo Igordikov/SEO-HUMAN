@@ -1,7 +1,7 @@
 
 Ссылки для страницы "Кейсы"
 
-1. https://www.fashionnova.com/
+1. https://vermontwoodsstudios.com/
 
 
 
