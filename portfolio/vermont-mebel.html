@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Внутренний SEO-аудит</title>
+    <title>Vermonts Woods</title>
     <link rel="stylesheet" href="../css/reset.css">
   <link rel="stylesheet" href="../css/dop-styles/uslugi-podkategorii.css">
 </head>
@@ -48,18 +48,74 @@
                         </div>
                     </div>
                 </section>
+            </header>
                 
                               
-        </header>
                 
                 
         <main>
 
-           
+           <div class="container">
+               <h1 class="title-text">Работа над продвижением сайта <a href="https://vermontwoodsstudios.com/" target="_blank">https://vermontwoodsstudios.com/</a></h1>
+          <h2 class="subtitle">Начало моей работы над проектом - Март 2019</h2>
+          
+          <ul class="service-description">
+            <li>
+                <p class="audit-p">В марте 2019 года я присоединился к команде сайта по изготовлению корпусной мебели. На тот момент сайт уже имел определенные показатели:</p>
+            </li>
+        <li>
+            <p class="audit-p"><span class="color">Domain Rating (DR): 31</span></p>
+        </li>
+        <li>
+            <p class="audit-p"><span class="color">Трафик: 17,4К</span></p>
+        </li>
+        <li>
+            <p class="audit-p"><span class="color">Количество страниц в индексе: 1100</span></p>
+        </li>
+        <li>
+            <p class="audit-p"><span class="color">Количество обратных ссылок: 107К</span></p>
+        </li>
+        <li>
+            <p class="audit-p"><span class="color">Количество ключевых слов в топ 3: 458</span></p>
+        </li>
+       </ul>
+
+       <h2 class="subtitle">Аудит и Стратегия</h2>
+       <div class="service-description">
+           <p class="audit-p">Я приступил к работе в марте 2019 года. Первым делом решил провести комплексный аудит сайта. Действовал по своему давно разработанному чек-листу. Для парсинга сайта использовал ScreaminFrog. Этот шаг был предпринят первым, чтобы понять, в каком состоянии находится сайт и выявить основные проблемы, которые могли помешать  его продвижению. В ходе работы по данному пункту было обнаружено:</p>
+                <p class="audit-p"><span class="color">Низкая скорость загрузки страниц:</span></p>
+                <p class="audit-p">Сайт загружался медленно. Это негативно влияло на пользовательский опыт и позиции в поисковой выдаче. </p>
+                <p class="audit-p">Я обнаружил, что некоторые страницы загружаются более 10 секунд.  Для поведенческих факторов и условий для ранжирования - это не допустимо.  Я начал анализировать причины и обнаружил, что изображения не были оптимизированы, а код содержал много ненужных элементов, таких как пробелы, комментарии и дубли строк и тд, что увеличивало размер файлов.</p>
+                <p class="audit-p">Для того, чтобы решить эту проблему я использовал ImageOptim и Squosh для сжатия изображений без потери качества. Также внедрил lazy loading, чтобы изображения загружались только тогда, когда пользователь прокручивает страницу до них.</p>
+                <p class="audit-p">Вторым пунктом по решению технических проблем была минификация CSS, JavaScript и HTML файлы, удалив все ненужные элементы. Также я объединил несколько CSS и JavaScript файлов в один, чтобы уменьшить количество HTTP-запросов.</p>
+                <p class="audit-p">Также я настроил кэширование на сервере, чтобы браузер сохранял копии статических ресурсов (изображений, CSS, JavaScript) и загружал их из кэша при повторных посещениях.</p>
+                <p class="audit-p">Провел анализ производительности сервера и обнаружил, что некоторые запросы занимают слишком много времени. Я оптимизировал базу данных, настроил серверное кэширование и использовал CDN для ускорения доставки контента.</p>
+                <p class="audit-p">Провел аудит всех плагинов и скриптов, удалил ненужные и заменил тяжелые плагины на более легкие и эффективные аналоги.</p>
+                
+                <p class="audit-p">С помощью тнструмента ScreamingFrog выполнил парсинг сайта. Были обнаружены следующие ошибки</p>
+                <p class="audit-p"><span class="color">Битые урлы. Страницы с 4хх-м статус-кодом</span></p>
+                <img src="../img/keis/vermonts-wood/vermonts-wood-audit-404.jpg" alt="Скриншот с парсингом сайта">
+                <p class="audit-p">Для решение данной проблемы я настроил 301-е редиректы на те битые страницы, которые имели ссылочный вес и трафик. Те страницы, которые не имели никакого значения для сайта - просто удалил из него</p>
+                <p class="audit-p"><span class="color">Некоректно работающие 301-е редиректы</span></p>
+                <img src="../img/keis/vermonts-wood/vermonts-wood-audit-301.jpg" alt="Скриншот с парсингом сайта">
+                <p class="audit-p">Также пришлось решить проблему некоректніх редиректов, методом удаления лишнего урла в цепи редиректов</p>
+                <p class="audit-p"><span class="color">Отсутствие в изображениях важного атрибута alt и отсутствие содержания данного атрибута:</span></p>
+                <img src="../img/keis/vermonts-wood/vermonts-wood-audit-alt-missing.jpg" alt="Скриншот с парсингом сайта">
+                <p class="audit-p">Для решения данной проблемы - я выписал ТЗ разработчику, чтобы он устранил данную проблему</p>
+                <p class="audit-p"><span class="color">Дубли Тайтлов и Н1</span></p>
+                <img src="../img/keis/vermonts-wood/vermonts-wood-audit-title-double.jpg" alt="Скриншот с парсингом сайта">
+                <img src="../img/keis/vermonts-wood/vermonts-wood-audit-h1-double.jpg" alt="Скриншот с парсингом сайта">
+                <p class="audit-p">Так же были страницы, у которых Тайтл и Н1 отсутствовал. Тоже в ходе правок по аудиту удалось решить на тот момент этот вопрос.</p>
+
+                
+            </div>
+    </div>
 
 
 
-<nav aria-label="breadcrumb">
+
+
+<!-- <nav aria-label="breadcrumb">
     <div class="container">
        
             <ol class="bread-flex" itemscope itemtype="http://schema.org/BreadcrumbList">
@@ -76,7 +132,7 @@
                     <meta itemprop="position" content="2" />
                 </li>
                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                    <span class="bread" itemprop="name">Технический аудит |</span>
+                    <span class="bread" itemprop="name">vermont-woods-studios. |</span>
                     <meta itemprop="position" content="3" />
                 </li>
                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
@@ -88,7 +144,7 @@
             </ol>
         
     </div>
-</nav>
+</nav> -->
 
         </main>
     </div>
