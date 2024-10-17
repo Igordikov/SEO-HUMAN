@@ -187,11 +187,6 @@ ol, ul {
         margin-bottom: 30px;
     }
 
-    .example-list {
-        display: flex;
-        gap: 30px;
-    }
-
     .mobile-version-dscr {
         margin-bottom: 5px;
     }
@@ -370,7 +365,8 @@ ol, ul {
     }
 
     .example-list {
-        flex-direction: row;
+        gap: 30px;
+        
     }
 
  
