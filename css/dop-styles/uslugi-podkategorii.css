@@ -254,6 +254,12 @@ ol, ul {
 
 /* /main */
 
+ /* bread-crumb */
+ .bread-flex {
+    flex-direction: column;
+}
+/* /bread-crumb */
+
 /* /Mobile-first */
 
 
@@ -440,7 +446,11 @@ ol, ul {
 
    
     /* /main */
-
+ /* bread-crumb */
+ .bread-flex {
+    flex-direction: row;
+}
+/* /bread-crumb */
    
 }
 

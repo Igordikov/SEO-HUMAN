@@ -29,9 +29,9 @@ html {
         height: 100%;
         background-repeat: no-repeat;
         background-position: center; /* Центрирование изображения */
+       }
        
        
-    }
 
 /* /Global styles*/
 
@@ -172,6 +172,11 @@ html {
 
     /* /main */
 
+    /* bread-crumb */
+    .bread-flex {
+        flex-direction: column;
+    }
+/* /bread-crumb */
     
     
     /* footer */
